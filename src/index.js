@@ -43,7 +43,7 @@ const createIncompleteList = (text) => {
 
     //完了したTODO内のdiv内のliタグ生成
     const li = document.createElement("li");
-    li.innerText = text; //26行目のtextを入力する
+    li.innerText = text; //39行目のtextを入力する
 
     // 完了したTODO内のdiv内のbuttonタグ生成
     const backButton = document.createElement("button");

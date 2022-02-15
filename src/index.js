@@ -31,7 +31,7 @@ const createIncompleteList = (text) => {
   completeButton.innerText = "完了";
   completeButton.addEventListener("click", () => {
     // 押された完了ボタンの親タグ(div)を未完了リストから削除
-    deleteFromIncompleteList(completeButton.parentNode); //この関数は下で定義している。
+    deleteFromIncompleteList(completeButton.parentNode);
 
     // 完了リストに追加する要素
     const addTarget = completeButton.parentNode; //list-rowのdivタグを取得
@@ -71,7 +71,7 @@ const createIncompleteList = (text) => {
   deleteButton.innerText = "削除";
   deleteButton.addEventListener("click", () => {
     // 押された削除ボタンの親タグ(div)を未完了リストから削除
-    deleteFromIncompleteList(deleteButton.parentNode); //この関数は下で定義している。
+    deleteFromIncompleteList(deleteButton.parentNode);
   });
 
   // divタグの子要素にliなどを入れる divの中に完了、削除ボタンが入る
